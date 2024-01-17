@@ -16,22 +16,18 @@ int main()
 
 	cout << "Please enter a value for A: ";
 	cin >> A;
-	cout << "A=" << A << endl;
-
-	cout << " " << endl;
 
 	cout << "Please enter a value for B: ";
 	cin >> B;
-	cout << "B=" << B << endl;
 
 	cout << " " << endl;
 
-	cout << "Solving " << A << "x+" << B << "=0..." << endl;
+	cout << "Solving " << A << "x+" << B << "=0 for x..." << endl;
 
 	cout << " " << endl;
 
 	X = -(B) / A;
 
 	cout << "The answer is:" << endl;
-	cout << "x = " << X << endl;
+	cout << "x=" << X << endl;
 }
